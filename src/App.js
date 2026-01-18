@@ -10,15 +10,14 @@ function App() {
     <div className="container">
       <h1>LAB MANUAL Solutions</h1>
       
-      {/* Set 2 Components */}
-      <EmployeeTaxFunc />
-      <EmployeeTaxClass />
-      
-      <hr />
-      
-   
-      <MathOperations />
-      <SumDigits />
+      <div className="components-container">
+        {/* Set 2 Components */}
+        <EmployeeTaxFunc />
+        <EmployeeTaxClass />
+        
+        <MathOperations />
+        <SumDigits />
+      </div>
     </div>
   );
 }
